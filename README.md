@@ -21,9 +21,9 @@ host:port/api/user/authenticate
     "password":"pwd1"
 }
 ```
-host:port/api/user/message
 ##### Для отправки сообщения
 ```
+host:port/api/user/message
 {
     "username":"user1",
     "message":"message"
@@ -31,6 +31,7 @@ host:port/api/user/message
 ```
 или получение последних 10 сообщений пользователя
 ```
+host:port/api/user/message
 {
     "username":"user1",
     "message":"history 10"
